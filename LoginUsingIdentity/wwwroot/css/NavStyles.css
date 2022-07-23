@@ -1,0 +1,59 @@
+﻿.SearchBar,
+.NavBar,
+.SearchIcon,
+.NavBarActions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavBar {
+    margin: 12px 24px;
+    padding: 0px;
+}
+
+.MenuIcon {
+    margin-right: 12px;
+}
+
+.Logos {
+    margin-right: 220px;
+}
+
+.SearchBar input {
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0px 1px 1px #eeeeee;
+    border-radius: 2px 0px 0px 2px;
+    padding: 0px 6px;
+    width: 450px;
+    height: 32px;
+}
+
+    .SearchBar input:active,
+    .SearchBar input:focus {
+        outline: none;
+        border: rgb(118, 118, 247) 1px solid;
+    }
+
+.SearchIcon {
+    background: #f4f4f4;
+    border: 1px solid #cccccc;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 14px;
+    border-left: none;
+    height: 30px;
+}
+
+.NavBarActions {
+    margin-left: 220px;
+    gap: 24px;
+}
+
+.SignUp {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url("./images/profile.jpg");
+}
