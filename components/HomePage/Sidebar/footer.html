@@ -5,10 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      #copyright {
+        color: #909090;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 15px;
+      }
+      #guide-links-primary a,
+      #guide-links-secondary a {
+        display: inline-block;
+        text-decoration: none;
+        color: #606060 !important;
+        font-size: 1.1rem;
+        font-weight: 540;
+        line-height: 1.8rem;
+      }
+      #footer-links div {
+        padding: 6px 14px;
+        width: 180px;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <div id="footer" class="style-scope ytd-guide-renderer">
-      <div id="guide-links-primary" class="style-scope ytd-guide-renderer">
+    <div id="footer-links">
+      <div id="guide-links-primary">
         <a href="https://www.youtube.com/about/">About</a>
         <a href="https://www.youtube.com/about/press/">Press</a>
         <a href="https://www.youtube.com/about/copyright/">Copyright</a>
@@ -17,7 +41,7 @@
         <a href="https://www.youtube.com/ads/">Advertise</a>
         <a href="https://developers.google.com/youtube">Developers</a>
       </div>
-      <div id="guide-links-secondary" class="style-scope ytd-guide-renderer">
+      <div id="guide-links-secondary">
         <a href="/t/terms">Terms</a>
         <a href="/t/privacy">Privacy</a>
         <a href="https://www.youtube.com/about/policies/"
@@ -29,9 +53,8 @@
         >
         <a href="/new">Test new features</a>
       </div>
-
       <div id="copyright">
-        <div dir="ltr" style="display: inline">© 2022 Google LLC</div>
+        <div style="padding: 0px">© 2022 Google LLC</div>
       </div>
     </div>
   </body>
