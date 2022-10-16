@@ -7,15 +7,15 @@
     string[] Explore = { "Explore" ,"/css/images/Explore.png"};
     string[] Shorts = { "Shorts" ,"/css/images/Home.png"};
     string[] Subscriptions = { "Subscriptions" ,"/css/images/Subscriptions.png"};
-    string[] Settings = { "Report history" ,"/css/images/Settings.png"};
-    string[] History = { "Help" ,"/css/images/History.png"};
-    string[] Help = { "Home" ,"/css/images/Help.png"};
+    string[] Settings = { "Settings" ,"/css/images/Settings.png"};
+    string[] History = { "History" ,"/css/images/History.png"};
+    string[] Help = { "Help" ,"/css/images/Help.png"};
     string[] Feedback = { "Send feedback" ,"/css/images/Feedback.png"};
 }
 @Html.Partial("Action",Home)
 @Html.Partial("Action",Explore)
 @Html.Partial("Action",Subscriptions)
-<hr />
+<hr  class = "hr"/>
 @Html.Partial("Action",Settings)
 @Html.Partial("Action",History)
 @Html.Partial("Action",Help)
